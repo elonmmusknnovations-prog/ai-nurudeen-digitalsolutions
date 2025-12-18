@@ -3,311 +3,179 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ainurudeen Digital Solutions - Empowering Education with Intelligent Digital Tools</title>
+    <title>Company Policy | Ainurudeen Digital Solutions</title>
 
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
     <style>
-        body { font-family: 'Inter', sans-serif; background-color: #f7f9fb; }
-        .nav-link { transition: color 0.3s, border-color 0.3s; }
-        .nav-link:hover { color: #0d9488; }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #f8fafc; }
+        .policy-card { background: white; border: 1px solid #e2e8f0; border-radius: 1.5rem; padding: 2.5rem; margin-bottom: 2rem; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05); }
+        .glass-nav { background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(10px); }
+        .sidebar-link:hover { color: #0d9488; background: #f0fdfa; }
     </style>
 </head>
 
-<body class="text-gray-800">
+<body class="text-slate-800">
 
-    <!-- NAVIGATION -->
-    <header class="sticky top-0 z-50 bg-white shadow-lg">
-        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-
-            <a href="#home" class="text-2xl font-bold text-teal-600 flex items-center group">
-                <svg class="w-8 h-8 mr-2 transition duration-300 group-hover:rotate-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
-                Ainurudeen Digital Solutions
+    <header class="fixed top-0 w-full z-50 glass-nav border-b border-gray-100">
+        <nav class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center space-x-2">
+                <div class="bg-teal-600 p-1.5 rounded-lg">
+                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+                </div>
+                <span class="text-xl font-extrabold tracking-tight text-slate-800">Ainurudeen <span class="text-teal-600">Digital</span></span>
             </a>
-
-            <div class="hidden md:flex space-x-8">
-                <a href="index.html" class="nav-link font-medium text-gray-600 hover:text-teal-600">Home</a>
-                <a href="index.html" class="nav-link font-medium text-gray-600 hover:text-teal-600">About</a>
-                <a href="index.html" class="nav-link font-medium text-gray-600 hover:text-teal-600">Services</a>
-                <a href="index.html" class="nav-link font-medium text-gray-600 hover:text-teal-600">Portfolio</a>
-                <a href="index.html" class="nav-link font-medium text-gray-600 hover:text-teal-600">Contact Us</a>
-            <a href="company.html" class="nav-link font-medium text-gray-600 hover:text-teal-600">Company Policy</a>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="index.html" class="text-sm font-semibold text-slate-600 hover:text-teal-600 transition">Back to Home</a>
+                <a href="index.html#contact" class="bg-teal-600 text-white px-5 py-2.5 rounded-full text-sm font-bold hover:bg-teal-700 transition">Contact Support</a>
             </div>
-
-            <button id="mobile-menu-button" class="md:hidden p-2 rounded-md text-gray-600 hover:bg-gray-100">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
-            </button>
         </nav>
-
-        <div id="mobile-menu" class="hidden md:hidden bg-gray-50 border-t border-gray-200">
-            <div class="px-2 pt-2 pb-3 space-y-1 flex flex-col">
-                <a href="index.html" class="block px-3 py-2 text-gray-700 hover:bg-teal-50 hover:text-teal-600">Home</a>
-                <a href="index.html" class="block px-3 py-2 text-gray-700 hover:bg-teal-50 hover:text-teal-600">About</a>
-                <a href="index.html" class="block px-3 py-2 text-gray-700 hover:bg-teal-50 hover:text-teal-600">Services</a>
-                <a href="index.html" class="block px-3 py-2 text-gray-700 hover:bg-teal-50 hover:text-teal-600">Portfolio</a>
-                <a href="index.html" class="block px-3 py-2 text-gray-700 hover:bg-teal-50 hover:text-teal-600">Contact Us</a>
-           <a href="company.html" class="block px-3 py-2 text-gray-700 hover:bg-teal-50 hover:text-teal-600">Company policy</a>
-            </div>
-        </div>
     </header>
 
-    <main>
-        
-<html lang="en" style="scroll-behavior: smooth;">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Company Policy - A.I Nurudeen Digital Solutions</title>
+    <main class="pt-32 pb-20 px-6">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row gap-12">
+            
+            <aside class="hidden md:block w-1/4 sticky top-32 h-fit">
+                <h4 class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4">On this page</h4>
+                <nav class="flex flex-col space-y-1">
+                    <a href="#overview" class="sidebar-link p-2 rounded-lg text-sm font-medium transition">Company Overview</a>
+                    <a href="#onboarding" class="sidebar-link p-2 rounded-lg text-sm font-medium transition">Client Onboarding</a>
+                    <a href="#freetrial" class="sidebar-link p-2 rounded-lg text-sm font-medium transition">Trial Policy</a>
+                    <a href="#payment" class="sidebar-link p-2 rounded-lg text-sm font-medium transition">Payment Terms</a>
+                    <a href="#privacy" class="sidebar-link p-2 rounded-lg text-sm font-medium transition">Data & Privacy</a>
+                    <a href="#security" class="sidebar-link p-2 rounded-lg text-sm font-medium transition">Security Standards</a>
+                </nav>
+            </aside>
 
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
+            <div class="md:w-3/4">
+                <div class="mb-12">
+                    <h1 class="text-4xl font-black text-slate-900 mb-4">Company Terms & Policies</h1>
+                    <p class="text-slate-500">Last updated: June 2025 • Version 1.0</p>
+                </div>
 
-    <!-- Custom Tailwind Config (Optional for fonts/colors) -->
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    fontFamily: {
-                        sans: ['Inter', 'Arial', 'sans-serif'],
-                    },
-                    colors: {
-                        primary: '#0F172A',   /* Dark Blue/Grey */
-                        secondary: '#1E293B'  /* Slightly lighter */
-                    }
-                }
-            }
-        }
-    </script>
-</head>
-<body class="bg-white text-gray-800 font-sans leading-relaxed">
+                <section id="overview" class="policy-card">
+                    <h2 class="text-2xl font-extrabold text-slate-900 mb-4 flex items-center gap-3">
+                        <span class="text-teal-600">01.</span> Company Overview
+                    </h2>
+                    <p class="text-slate-600 leading-relaxed">
+                        Ainurudeen Digital Solutions is a premier technology firm specializing in the digital transformation of educational institutions and corporate organizations. We provide end-to-end digital infrastructure, ranging from secure result management systems to enterprise resource planning (ERP) tools.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4 mt-6">
+                        <div class="p-4 bg-slate-50 rounded-xl">
+                            <p class="text-xs font-bold text-teal-600 uppercase mb-1">Mission</p>
+                            <p class="text-sm font-semibold">To lead Nigeria's digital education revolution.</p>
+                        </div>
+                        <div class="p-4 bg-slate-50 rounded-xl">
+                            <p class="text-xs font-bold text-teal-600 uppercase mb-1">Focus</p>
+                            <p class="text-sm font-semibold">Security, Scalability, and User Experience.</p>
+                        </div>
+                    </div>
+                </section>
 
-    <!-- MAIN WRAPPER -->
-    <section class="py-16">
-        <div class="max-w-5xl mx-auto px-4">
+                <section id="onboarding" class="policy-card">
+                    <h2 class="text-2xl font-extrabold text-slate-900 mb-4 flex items-center gap-3">
+                        <span class="text-teal-600">02.</span> Professional Onboarding
+                    </h2>
+                    <p class="text-slate-600 mb-6">Our structured deployment process ensures zero downtime for your institution:</p>
+                    <ul class="space-y-3">
+                        <li class="flex items-start gap-3 text-sm text-slate-600">
+                            <svg class="w-5 h-5 text-teal-500 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            <span><strong>Requirement Analysis:</strong> Detailed consultation to map your school's specific grading and billing workflows.</span>
+                        </li>
+                        <li class="flex items-start gap-3 text-sm text-slate-600">
+                            <svg class="w-5 h-5 text-teal-500 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            <span><strong>Data Migration:</strong> Secure handling of student and staff records for system integration.</span>
+                        </li>
+                        <li class="flex items-start gap-3 text-sm text-slate-600">
+                            <svg class="w-5 h-5 text-teal-500 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            <span><strong>Beta Launch:</strong> A controlled environment test before going live to all parents and students.</span>
+                        </li>
+                    </ul>
+                </section>
 
-            <!-- HEADER -->
-            <h1 class="text-3xl font-bold mb-4 text-primary">
-                📘 A.I Nurudeen Digital Solutions — Company Policy (Comprehensive Edition)
-            </h1>
-            <p class="text-gray-600 mb-10">Version 1.0 — Drafted: 2025</p>
+                <section id="freetrial" class="policy-card bg-teal-900 text-white border-none">
+                    <h2 class="text-2xl font-extrabold mb-4 flex items-center gap-3">
+                        <span class="text-teal-400">03.</span> Educational Trial Policy
+                    </h2>
+                    <p class="text-teal-100 mb-6 leading-relaxed">
+                        To demonstrate the value of our systems, qualified schools are eligible for a one-term (3-month) free trial of the software platform.
+                    </p>
+                    <div class="bg-teal-800 p-4 rounded-xl text-sm border border-teal-700">
+                        <p><strong>Note:</strong> Third-party costs such as Domain Name registration and Hosting server fees are the responsibility of the client during and after the trial period.</p>
+                    </div>
+                </section>
 
-            <!-- POLICY CONTENT -->
-            <!-- 1. COMPANY OVERVIEW -->
-            <h2 class="text-2xl font-bold text-secondary mt-10 mb-4">1. COMPANY OVERVIEW</h2>
-            <p>
-                A.I Nurudeen Digital Solutions is a technology company dedicated to digitalizing schools, businesses, 
-                and organizations through modern web applications, secure data systems, and digital solutions.
-                <br><br>
-                Our mission is to make Jalingo, Taraba State—and eventually Nigeria—fully digital.
-            </p>
+                <section id="payment" class="policy-card">
+                    <h2 class="text-2xl font-extrabold text-slate-900 mb-4 flex items-center gap-3">
+                        <span class="text-teal-600">04.</span> Financial Terms
+                    </h2>
+                    <div class="space-y-6">
+                        <div>
+                            <h4 class="font-bold text-slate-800 mb-2">Service Level Agreements (Monthly Management)</h4>
+                            <p class="text-sm text-slate-600">Standard Management: ₦20,000/Month (Includes 24/7 technical support, updates, and data management).</p>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-800 mb-2">Enterprise Licensing (One-Time)</h4>
+                            <p class="text-sm text-slate-600">Full System License: ₦150,000. Includes core source deployment and 1 year of maintenance.</p>
+                        </div>
+                        <div class="p-4 bg-amber-50 rounded-xl border border-amber-100">
+                            <p class="text-xs font-bold text-amber-700 uppercase mb-1">Delinquency Policy</p>
+                            <p class="text-xs text-amber-800">Payments exceeding 30 days past due will result in a temporary suspension of portal access until the balance is cleared.</p>
+                        </div>
+                    </div>
+                </section>
 
-            <!-- 2. CORE VALUES -->
-            <h2 class="text-2xl font-bold text-secondary mt-10 mb-4">2. CORE VALUES</h2>
-            <ul class="list-disc ml-6 space-y-2">
-                <li><strong>Integrity:</strong> Transparency and honesty.</li>
-                <li><strong>Innovation:</strong> Continuous development of new tools and ideas.</li>
-                <li><strong>Security First:</strong> Strong measures to protect data.</li>
-                <li><strong>Excellence & Quality:</strong> High-standard professional services.</li>
-                <li><strong>Customer Focus:</strong> Fast and reliable support.</li>
-                <li><strong>Confidentiality:</strong> Strict privacy with all client data.</li>
-            </ul>
+                <section id="privacy" class="policy-card">
+                    <h2 class="text-2xl font-extrabold text-slate-900 mb-6 flex items-center gap-3">
+                        <span class="text-teal-600">05.</span> Data Privacy & Security
+                    </h2>
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div>
+                            <h4 class="font-bold mb-3 text-sm uppercase tracking-wider text-slate-400">Data Integrity</h4>
+                            <ul class="text-sm space-y-2 text-slate-600">
+                                <li>• Industry-standard AES-256 encryption.</li>
+                                <li>• No third-party data sharing.</li>
+                                <li>• Weekly automated off-site backups.</li>
+                                <li>• Right to Data Portability for all clients.</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-bold mb-3 text-sm uppercase tracking-wider text-slate-400">Technical Defense</h4>
+                            <ul class="text-sm space-y-2 text-slate-600">
+                                <li>• SQL Injection protection via Prepared Statements.</li>
+                                <li>• Secure Password Hashing (BCrypt).</li>
+                                <li>• DDoS mitigation and Rate Limiting.</li>
+                                <li>• Mandatory SSL (HTTPS) on all portals.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
 
-            <!-- 3. ORGANIZATIONAL STRUCTURE -->
-            <h2 class="text-2xl font-bold text-secondary mt-10 mb-4">3. ORGANIZATIONAL STRUCTURE</h2>
+                <section id="legal" class="policy-card">
+                    <h2 class="text-2xl font-extrabold text-slate-900 mb-4 flex items-center gap-3">
+                        <span class="text-teal-600">06.</span> Legal Provisions
+                    </h2>
+                    <div class="space-y-4 text-xs text-slate-500 leading-relaxed">
+                        <p><strong>Intellectual Property:</strong> All software code, logic, and design remains the property of Ainurudeen Digital Solutions unless a Full Ownership License is purchased.</p>
+                        <p><strong>Limitation of Liability:</strong> Ainurudeen Digital Solutions is not liable for data loss resulting from client-side credential mismanagement or unauthorized third-party access to client devices.</p>
+                        <p><strong>Refunds:</strong> Due to the digital nature of our work, no refunds are issued once development or data migration has commenced.</p>
+                    </div>
+                </section>
 
-            <p><strong>CEO / Lead Developer — Nurudeen A. Idabu</strong><br> Oversees all development and technical operations.</p>
-            <p class="mt-4"><strong>Technical Operations Manager & Media Lead — Vihishima Cyril Aondosoo</strong><br> Handles client relations, media, and presentations.</p>
-
-            <p class="mt-4 font-semibold">Future Roles (Year 2–3):</p>
-            <ul class="list-disc ml-6 space-y-1">
-                <li>Customer Support Agent</li>
-                <li>Junior Developer</li>
-                <li>Finance/Account Officer</li>
-                <li>Administrative Assistant</li>
-            </ul>
-
-            <!-- 4. SCOPE OF SERVICES -->
-            <h2 class="text-2xl font-bold text-secondary mt-10 mb-4">4. SCOPE OF SERVICES</h2>
-
-            <h3 class="font-semibold mt-4 text-lg">Education-Sector Solutions</h3>
-            <ul class="list-disc ml-6 space-y-1">
-                <li>School Result Portal</li>
-                <li>Mobile App (Optional)</li>
-                <li>CBT/Online Exams</li>
-                <li>Fee Payment System</li>
-                <li>Student Records/Database</li>
-                <li>Staff Portal</li>
-                <li>Parent/Guardian Portal</li>
-            </ul>
-
-            <h3 class="font-semibold mt-6 text-lg">Business Solutions</h3>
-            <ul class="list-disc ml-6 space-y-1">
-                <li>Business Websites</li>
-                <li>E-commerce Setup</li>
-                <li>Attendance System</li>
-                <li>Payment Integration</li>
-                <li>Data & Records Tools</li>
-            </ul>
-
-            <h3 class="font-semibold mt-6 text-lg">Support Services</h3>
-            <ul class="list-disc ml-6 space-y-1">
-                <li>Hosting Setup</li>
-                <li>Domain Name Setup</li>
-                <li>24/7 Technical Support</li>
-                <li>Data Backup</li>
-                <li>Monthly Maintenance</li>
-                <li>Media (photo/video/graphics)</li>
-            </ul>
-
-            <!-- 5. CLIENT ONBOARDING -->
-            <h2 class="text-2xl font-bold text-secondary mt-10 mb-4">5. CLIENT ONBOARDING POLICY</h2>
-            <ol class="list-decimal ml-6 space-y-2">
-                <li>Meeting is scheduled.</li>
-                <li>Platform demo is shown.</li>
-                <li>Requirements are documented.</li>
-                <li>Package is selected.</li>
-                <li>Agreement is confirmed.</li>
-                <li>Logos, data, and colors are submitted.</li>
-                <li>Development begins and timeline shared.</li>
-            </ol>
-
-            <!-- 6. FREE TRIAL -->
-            <h2 class="text-2xl font-bold text-secondary mt-10 mb-4">6. FREE TRIAL POLICY (FOR SCHOOLS)</h2>
-            <p>Each school gets <strong>1 academic term (3 months)</strong> free access to the platform.</p>
-            <ul class="list-disc ml-6 mt-2 space-y-1">
-                <li>Domain + hosting costs covered by school</li>
-                <li>Full support included</li>
-                <li>After trial: choose management package, buy outright, or discontinue</li>
-            </ul>
-
-            <!-- 7. PAYMENT -->
-            <h2 class="text-2xl font-bold text-secondary mt-10 mb-4">7. PAYMENT POLICY</h2>
-
-            <h3 class="font-semibold text-lg">Management Package</h3>
-            <ul class="list-disc ml-6 space-y-1">
-                <li>₦200,000 setup</li>
-                <li>₦20,000 monthly</li>
-                <li>₦50,000 yearly domain+hosting</li>
-            </ul>
-
-            <h3 class="font-semibold text-lg mt-4">One-Time Purchase</h3>
-            <ul class="list-disc ml-6 space-y-1">
-                <li>₦300,000 complete system</li>
-                <li>₦250,000 for web only</li>
-            </ul>
-
-            <h3 class="font-semibold text-lg mt-4">Payment Rules</h3>
-            <ul class="list-disc ml-6 space-y-1">
-                <li>Full payment before launch</li>
-                <li>Management is monthly</li>
-                <li>Late payments (30 days) may suspend service</li>
-                <li>Payments recorded digitally</li>
-            </ul>
-
-            <!-- 8. DATA PRIVACY -->
-            <h2 class="text-2xl font-bold text-secondary mt-10 mb-4">8. DATA PRIVACY POLICY</h2>
-            <ul class="list-disc ml-6 space-y-1">
-                <li>Data is confidential and encrypted</li>
-                <li>No third-party sharing</li>
-                <li>Only authorized staff access backend</li>
-                <li>Regular backups maintained</li>
-                <li>Schools can request data anytime</li>
-            </ul>
-
-            <!-- 9. SECURITY -->
-            <h2 class="text-2xl font-bold text-secondary mt-10 mb-4">9. SECURITY POLICY</h2>
-            <ul class="list-disc ml-6 space-y-1">
-                <li>Password hashing</li>
-                <li>Prepared SQL statements</li>
-                <li>Input sanitization</li>
-                <li>Rate limiting</li>
-                <li>Session security</li>
-                <li>HTTPS preferred</li>
-                <li>Code audits</li>
-                <li>Instant threat response</li>
-                <li>And many more...</li>
-            </ul>
-
-            <!-- 10. SUPPORT -->
-            <h2 class="text-2xl font-bold text-secondary mt-10 mb-4">10. SUPPORT & MAINTENANCE</h2>
-
-            <h3 class="font-semibold text-lg">Support Channels:</h3>
-            <ul class="list-disc ml-6 space-y-1">
-                <li>WhatsApp</li>
-                <li>Calls</li>
-                <li>Email</li>
-                <li>Admin Portal</li>
-            </ul>
-
-            <h3 class="font-semibold text-lg mt-4">Maintenance Includes:</h3>
-            <ul class="list-disc ml-6 space-y-1">
-                <li>Bug fixes</li>
-                <li>Updates</li>
-                <li>Security patches</li>
-                <li>Database optimization</li>
-                <li>Server configuration</li>
-            </ul>
-
-            <h3 class="font-semibold text-lg mt-4">Response Time:</h3>
-            <ul class="list-disc ml-6 space-y-1">
-                <li>Critical: 1–3 hours</li>
-                <li>Moderate: same day</li>
-                <li>Minor: 48 hours</li>
-            </ul>
-
-            <!-- 11. ADDITIONAL FEATURES -->
-            <h2 class="text-2xl font-bold text-secondary mt-10 mb-4">11. ADDITIONAL FEATURES POLICY</h2>
-            <p>Additional features are billed separately.</p>
-            <ul class="list-disc ml-6 space-y-1">
-                <li>CBT system</li>
-                <li>Mobile App</li>
-                <li>ID Card system</li>
-                <li>Extra dashboards/pages</li>
-                <li>Payment gateways</li>
-            </ul>
-
-            <!-- 12. REFUND -->
-            <h2 class="text-2xl font-bold text-secondary mt-10 mb-4">12. REFUND POLICY</h2>
-            <ul class="list-disc ml-6 space-y-1">
-                <li>No refunds after development begins</li>
-                <li>Monthly fees are non-refundable</li>
-                <li>But discontinuity is allowed & should be started a mouth ahead</li>
-            </ul>
-
-            <!-- 14. ETHICAL -->
-            <h2 class="text-2xl font-bold text-secondary mt-10 mb-4">13. ETHICAL POLICY</h2>
-            <ul class="list-disc ml-6 space-y-1">
-                <li>No data sharing or selling</li>
-                <li>No fraudulent systems</li>
-                <li>No corrupt practices</li>
-                <li>No unethical partnerships</li>
-            </ul>
-
-            <!-- 15. BUSINESS CONTINUITY -->
-            <h2 class="text-2xl font-bold text-secondary mt-10 mb-4">14. BUSINESS CONTINUITY POLICY</h2>
-            <ul class="list-disc ml-6 space-y-1">
-                <li>Backup to GitHub + local</li>
-                <li>Responsibilities shared between CEO & Manager</li>
-                <li>Operations continue if one staff unavailable</li>
-                <li>Future staff will be trained for redundancy</li>
-            </ul>
-
-            <!-- 17. COMMUNICATION -->
-            <h2 class="text-2xl font-bold text-secondary mt-10 mb-4">15. COMMUNICATION POLICY</h2>
-            <ul class="list-disc ml-6 space-y-1">
-                <li>Clear and respectful communication</li>
-                <li>Meetings scheduled</li>
-                <li>Discussions documented</li>
-                <li>WhatsApp Business is primary channel</li>
-            </ul>
-
-            <!-- 18. VERSION -->
-            <h2 class="text-2xl font-bold text-secondary mt-10 mb-4">16. VERSION POLICY</h2>
-            <p>This document will be updated as the company grows.</p>
-
+            </div>
         </div>
-    </section>
+    </main>
+
+    <footer class="bg-slate-900 text-slate-400 py-12 px-6">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center border-t border-slate-800 pt-8 gap-6">
+            <p class="text-sm">&copy; 2026 Ainurudeen Digital Solutions. Official Policy Document.</p>
+            <div class="flex space-x-6 text-sm">
+                <a href="index.html" class="hover:text-white transition">Home</a>
+                <a href="mailto:ainurudeen.digitaldolutions@gmail.com" class="hover:text-white transition">Email Support</a>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
